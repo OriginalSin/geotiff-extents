@@ -1,0 +1,21 @@
+{
+  "name": "geotiff-extents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "substack",
+  "license": "BSD",
+  "devDependencies": {
+    "epsg-to-proj": "^1.0.0",
+    "geotiff": "0.0.4",
+    "proj4": "^2.3.12"
+  }
+}
