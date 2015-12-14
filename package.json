@@ -15,7 +15,8 @@
   "license": "BSD",
   "devDependencies": {
     "epsg-to-proj": "^1.0.0",
-    "geotiff": "0.0.4",
-    "proj4": "^2.3.12"
+    "geotiff": "~0.0.4",
+    "proj4": "^2.3.12",
+    "tape": "^4.2.2"
   }
 }
