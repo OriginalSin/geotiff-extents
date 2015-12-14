@@ -1,16 +1,26 @@
 {
   "name": "geotiff-extents",
   "version": "1.0.0",
-  "description": "",
+  "description": "compute the corner and center bounding coordinates for a geotiff",
   "main": "index.js",
   "directories": {
     "example": "example",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
-  "keywords": [],
+  "keywords": [
+    "geotiff",
+    "bounding box",
+    "bbox",
+    "corners",
+    "tiff",
+    "map",
+    "geo",
+    "gis",
+    "extents"
+  ],
   "author": "substack",
   "license": "BSD",
   "devDependencies": {
@@ -18,5 +28,14 @@
     "geotiff": "~0.0.4",
     "proj4": "^2.3.12",
     "tape": "^4.2.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substack/geotiff-extents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/geotiff-extents/issues"
+  },
+  "homepage": "https://github.com/substack/geotiff-extents#readme"
 }
